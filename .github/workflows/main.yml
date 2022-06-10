@@ -36,5 +36,5 @@ jobs:
         name: create jar
         with:
           name: my-artifact
-          path: target/*.jar
+          path: path/target/*.jar
       
