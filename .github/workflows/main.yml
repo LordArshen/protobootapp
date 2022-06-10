@@ -32,7 +32,7 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: mvn -B clean install --file pom.xml
-      - uses: actions/download-artifact@v3
+      - uses: actions/upload-artifact@v3
         name: create jar
         with:
           name: my-artifact
